@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://astrix.security/
+note: >-
+  Astrix publishes no public API, OpenAPI, or developer specification, so
+  cross-cutting API standards (oauth2/oidc/rfc9457/pagination/etc.) cannot be
+  derived. What is asserted here is the company's published security and privacy
+  compliance posture, verified against public announcements and legal pages.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: >-
+    SOC 2 Type 2 audit completed (Big Four audit firm, no deficiencies) — announced
+    2022 and maintained.
+  source: https://www.prnewswire.com/news-releases/astrix-security-achieves-soc-2-type-2-certification-five-months-after-emerging-from-stealth-301595305.html
+- id: eu-us-data-privacy-framework
+  conforms: true
+  evidence: >-
+    DPF Certification Notice (Astrix Security Inc.) effective May 02, 2026 —
+    participation in the EU-US / UK / Swiss Data Privacy Framework.
+  source: https://astrix.security/dpf-certification-notice/
+- id: gdpr
+  conforms: true
+  evidence: Privacy Policy (last updated April 28, 2026) documents GDPR data-subject rights.
+  source: https://astrix.security/privacy-policy/

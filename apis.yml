@@ -1,22 +1,51 @@
 aid: astrix
 name: Astrix
-description: 'Astrix is a company surfaced as a portfolio company of bessemer-venture-partners, menlo-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Astrix Security is a non-human identity (NHI) and AI agent security platform. It
+  gives enterprises a real-time inventory of every AI agent, MCP server, service
+  account, OAuth app, API key, SSH key and IAM role across their environment, then
+  detects excessive privileges, misconfigurations, anomalous activity and policy
+  violations and drives automated remediation. Its Agent Control Plane provisions
+  secure-by-design AI agents with short-lived, precisely scoped credentials. Astrix
+  became part of Cisco in 2026 and ended standalone sales of new licenses effective
+  June 30, 2026. Originally surfaced as a portfolio company of Bessemer Venture
+  Partners and Menlo Ventures. Sector: cybersecurity. This is a company profile —
+  Astrix publishes no public developer API, so the profile carries identity,
+  security-posture, and compliance signals rather than API specifications.
 url: https://raw.githubusercontent.com/api-evangelist/astrix/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://astrix.security/wp-content/uploads/2026/06/logo-astrix-cisco.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 - menlo-ventures
+x-acquired-by: cisco
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Cybersecurity
+- Non-Human Identity
+- Identity Security
+- AI Agent Security
+- ITDR
+- Secrets Management
+- OAuth
+- MCP Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +54,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://astrix.security/
+- type: Blog
+  url: https://astrix.security/learn/blog/
+- type: Support
+  url: https://astrix.security/contact-us/
+- type: TermsOfService
   url: https://astrix.security/terms-of-use/
+- type: PrivacyPolicy
+  url: https://astrix.security/privacy-policy/
+- type: Compliance
+  url: https://astrix.security/dpf-certification-notice/
+- type: LLMsTxt
+  url: llms/astrix-llms.txt
+- type: DomainSecurity
+  url: security/astrix-domain-security.yml
+- type: Conformance
+  url: conformance/astrix-conformance.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
