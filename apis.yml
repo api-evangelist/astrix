@@ -13,6 +13,17 @@ description: >-
   Astrix publishes no public developer API, so the profile carries identity,
   security-posture, and compliance signals rather than API specifications.
 url: https://raw.githubusercontent.com/api-evangelist/astrix/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
